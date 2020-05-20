@@ -9,10 +9,11 @@ class Transfer
   end
 
   def valid?
-    if @status != "pending"
+    if @sender = valid? && @receiver = valid?
       true
     else
       false
     end
   end
+
 end
